@@ -1,5 +1,5 @@
-n1 = input('1st Número: ')
-n2 = input('2nd Número: ')
+n1 = int(input('1st Número: '))
+n2 = int(input('2nd Número: '))
 res = n1+n2
 
-print('A soma de',n1,'e',n2,'é',res)
+print('A soma de {} e {} é {}!'.format(n1,n2,res))
