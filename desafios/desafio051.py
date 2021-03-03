@@ -3,4 +3,5 @@ razao = int(input('Digite a razão da PA: '))
 
 print('A PA de {} tomados a cada {} vezes:\n'.format(primeiro,razao))
 for i in range(primeiro, razao*10 + primeiro, razao):
-    print(i)
+    print('{} '.format(i), end='')
+print('\n')
